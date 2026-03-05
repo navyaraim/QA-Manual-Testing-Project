@@ -1,0 +1,138 @@
+#Test Plan
+
+#Test Plan ID : TP_HMS_001
+#Project Name: Healthcare Management System
+#Prepared By: Navya Rai – Software Tester
+#Date: March 2026
+
+#Introduction:
+This document describes the testing strategy, scope, resources, schedule, and deliverables for testing the Healthcare Management System application.
+
+The objective is to ensure that the application meets the functional and performance requirements before release.
+
+#Scope of Testing:
+The following modules will be tested:
+    • User Registration
+    • User Login
+    • Patient Management
+    • Appointment Booking
+    • Billing System
+    • Insurance Validation
+    • Reports Genaration
+
+      Out of Scope:
+    • Third-party payment gateway testing
+    • Hardware device testing
+    • Performance testing beyond defined scope
+
+#Test Objectives:
+The objective of testing is to:
+    • Validate application functionality
+    • Ensure system stability
+    • Identify defects before release
+    • Verify business requirements
+
+#Testing Types:
+The following testing types will be performed:
+    • Functional Testing:
+      Verify application features work according to requirements.
+
+    • Integration Testing:
+      Verify communication between modules such as:
+       1. Appointment and Billing
+       2. Billing and Insurance        
+      
+    • Regression Testing:
+      Ensure new changes do not affect existing features.
+      
+    • API Testing:
+      Verify back end APIs using Postman.
+      
+    • Usability Testing:
+      Ensure Application is user-friendly.
+
+#Test Environment:
+
+Component           Configuration
+OS                     Linux
+Browser              Chrome, Firefox
+Database              MySQL
+API Tool             Postman
+Bug Tracking Tool     Jira
+Automation Tool      Selenium
+
+#Test Data:
+Test data will include:
+    • Valid patient records
+    • Invalid input data
+    • Duplicate entries
+    • Boundary values
+
+#Test Deliverables:
+The following document will be produced:
+    • Test Plan
+    • Test Scenarios
+    • Test Cases
+    • Bug Reports
+    • Test Execution Report
+    • Test Summary Report
+
+#Entry Criteria:
+Testing will start when:
+    • Application build is deployed
+    • Requirements document is approved
+    • Test environment is ready
+
+#Exit Criteria:
+testing will stop when:
+    • All critical defects are fixed
+    • Test cases are executed
+    • Test coverage is completed
+    • Test summary report is prepared
+
+#Roles and Responsibilities:
+
+Role                 Responsibility
+Software Tester      Write test cases, execute tests
+Developer             Fix defects
+Project Manager      Monitor project progress
+
+#Defect Management:
+Defects will be tracked using Jira.
+
+Defect Life Cycle:
+New
+Assigned
+In Progress
+Fixed
+Retest
+Closed
+
+
+#Risk Analysis:
+
+Risk                       Impact                     Mitigation
+Delay in build delivery    Testing delay              Adjust test schedule
+Environment issues         Test execution blocked     Backup environment
+Requirement changes        Rework required            Update test cases
+
+#Test Schedule:
+
+Activity                Duration
+Test planning           2 days
+Test case writing       3 days
+Test Execution          5 days
+Bug fix & Retesting     3 days
+
+#Test Metrics:
+The following metrics will be tracked:
+    • Number of test cases executed
+    • Number of defects found
+    • Defect severity distribution
+    • Test coverage
+
+#Approval:
+
+Role              Name      Approval
+QA Lead            -        Pending
+Project Manager    -        Pending
